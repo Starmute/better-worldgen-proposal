@@ -15,6 +15,7 @@ DECORATORS
 		- `max_x`: The maximum value for the X-axis range upon which the feature will be repeated. Accepts an int value provider. Range is -16 to 16. Required.
 		- `max_y`: The maximum value for the Y-axis range upon which the feature will be repeated. Accepts an int value provider. Range is unrestricted. Required.
 		- `max_z`: The maximum value for the Z-axis range upon which the feature will be repeated. Accepts an int value provider. Range is -16 to 16. Required.
+		
 		- `generate_identical_features`: If true, the feature will be cloned (generated exactly the same each time, using the seed from the feature's origin). If false, the feature will generate randomly using a seed based on its own starting position each time.
 		- `chance`: The chance to generate the feature, between 0.0 and 1.0. Float. Required.
 
