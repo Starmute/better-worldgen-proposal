@@ -1,3 +1,4 @@
+```
 DECORATORS
 ==========
 
@@ -70,3 +71,5 @@ FEATURES
 				`processor`: Processor to apply to the structure. Optional, defaults to `minecraft:empty`
 				`weight`: The weight of the structure in the random calculation. Optional, defaults to 1
 				`cannot_replace`: Accepts a block tag, blocks in this tag will not be replaced by the structure
+
+```
